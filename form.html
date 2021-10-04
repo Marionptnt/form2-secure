@@ -12,22 +12,22 @@
         <form action="thanks.php" method="POST">
         <div>
             <label  for="nom">Nom :</label>
-            <input  type="text"  id="nom"  name="name" require = "required">
+            <input  type="text"  id="nom"  name="name" required = "required">
         </div>
         <br>
         <div>
             <label  for="courriel">Courriel :</label>
-            <input  type="email"  id="courriel"  name="email" require = "required">
+            <input  type="email"  id="courriel"  name="email" required = "required">
         </div>
         <br>
         <div>
             <label  for="telephone">Portable :</label>
-            <input  type="number"  id="Portable"  name="phone" require = "required">
+            <input  type="number"  id="Portable"  name="phone" required = "required">
         </div>
         <br>
         <div>
             <label for="object">Sujet:</label>
-                <select id="object" name="object">
+                <select id="object" name="object" required = "required">
                 <option value="claim">Réclamation</option>
                 <option value="reminder">Demander à être rappelé</option>
                 <option value="duplicate">Demander un duplicata de votre facture</option>
@@ -35,7 +35,7 @@
         </div>
         <br>
             <label  for="message">Message :</label>
-            <textarea  id="message"  name="message"></textarea>
+            <textarea  id="message"  name="message" required = "required"></textarea>
         </div>
         <br>
         <div  class="button">
